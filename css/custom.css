@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Recoleta;
+    src: url("Recoleta-RegularDEMO.otf") format("opentype");
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+h1{
+    text-align:center;
+    color:#fff;
+}
+.quote{
+    color:#ffffff;
+    text-align:center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#quoteblock{
+    font-family: Recoleta;
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 1.15em;
+    transition: opacity 250ms linear;
+}
+
+#author{
+    font-family: 'PT Serif', serif;
+    text-align:center;
+    color:#fff;
+    text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+}

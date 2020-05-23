@@ -1,0 +1,16 @@
+{
+  "name": "Naval Quotes",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Get a quote by Naval whenever you open a new tab.",
+  "homepage_url": "https://saassessions.com",
+  "icons": {
+  "16": "icons/ycqwaMI2_400x400.jpg",
+  "48": "icons/ycqwaMI2_400x400.jpg",
+  "128": "icons/ycqwaMI2_400x400.jpg"
+  },
+  "default_locale": "en",
+  "chrome_url_overrides": {
+  "newtab": "src/override/override.html"
+  }
+}
