@@ -1,4 +1,7 @@
 # naval-quotes Chrome Extension
+
+It's LIVE on Chrome Store - https://chrome.google.com/webstore/detail/illkmemcaokmbihlpfhbdfgepghohkcg/
+
 Get a quote by Naval whenever you open a new tab in Google Chrome.
 
 To install the extension - 
