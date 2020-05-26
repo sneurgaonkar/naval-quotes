@@ -1,36 +1,56 @@
 @font-face {
-    font-family: Recoleta;
-    src: url("Recoleta-RegularDEMO.otf") format("opentype");
+  font-family: Recoleta;
+  src: url("Recoleta-RegularDEMO.otf") format("opentype");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    opacity: 1;
+  opacity: 1;
 }
 
-h1{
-    text-align:center;
-    color:#fff;
-}
-.quote{
-    color:#ffffff;
-    text-align:center;
-    margin: auto;
-    width: 80%;
-    padding: 10px;
+h1 {
+  text-align: center;
 }
 
-#quoteblock{
-    font-family: Recoleta;
-    font-size: 5vw;
-    font-weight: 500;
-    line-height: 1.15em;
-    transition: opacity 250ms linear;
+.quote {
+  align-items: center;
+  color: #000;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  max-width: 1260px;
+  padding: 20px;
+  text-align: center;
+  width: 100vw;
 }
 
-#author{
-    font-family: 'PT Serif', serif;
-    text-align:center;
-    color:#fff;
-    text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+#quoteblock {
+  font-family: Recoleta;
+  font-size: 5vw;
+  font-weight: 500;
+  line-height: 1.15em;
+  transition: opacity 250ms linear;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+  }
+
+  .quote {
+    color: #fff;
+  }
 }
